@@ -30,8 +30,9 @@ class Linked_list:
             self.display(head.next)
 
     def reverse(self,head):
-        if not head or not head.next: return self.head
+        if not head or not head.next: return head
         newHead = self.reverse(head.next)
+        print("head :",head.data)
         head.next.next = head
         head.next = None
         return newHead
@@ -41,13 +42,12 @@ class Linked_list:
 
 ll=Linked_list()
 head_new=ll.inserNth(3,0)
-head_new=ll.inserNth(4,0)
-head_new=ll.inserNth(5,1)
+head_new=ll.inserNth(4,1)
+head_new=ll.inserNth(5,2)
 print("linked list after insertion")
 ll.display(head_new)
-head_new=ll.reverse(head_new)
-print("reversed linked_list")
-ll.display(head_new)
+rev_head=ll.reverse(head_new)
+ll.display(rev_head)
 
 
 

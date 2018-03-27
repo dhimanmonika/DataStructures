@@ -34,8 +34,8 @@ class Linked_list:
 
 ll=Linked_list()
 head_new=ll.inserNth(3,0)
-head_new=ll.inserNth(4,0)
-head_new=ll.inserNth(5,1)
+head_new=ll.inserNth(4,1)
+head_new=ll.inserNth(5,2)
 ll.print_rev(head_new)
 
 
