@@ -26,6 +26,8 @@
         <option value="$PROJECT_DIR$/Reverse_array.py" />
         <option value="$PROJECT_DIR$/HourGlass_Max_sum.py" />
         <option value="$PROJECT_DIR$/left_shift.py" />
+        <option value="$PROJECT_DIR$/Binary_search.py" />
+        <option value="$PROJECT_DIR$/majority_element.py" />
       </list>
     </option>
   </component>
@@ -212,8 +214,24 @@
         <state relative-caret-position="336">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
-            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/majority_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
