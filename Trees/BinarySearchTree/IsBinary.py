@@ -56,3 +56,25 @@ if(isBin(root)):
     print("It is binary tree")
 else:
     print("not a bonary tree")
+
+
+
+
+""" one more solution :
+
+def inOrder(root, stack=[]):
+    if root.left:
+        inOrder(root.left, stack)
+    stack.append(root.data)
+    if root.right:
+        inOrder(root.right, stack)
+
+        
+def check_binary_search_tree_(root):
+    stack = []
+    inOrder(root, stack)
+    length = len(stack)
+    for i in range(length-1):
+        if stack[i] >= stack[i+1]:
+            return False
+    return True"""
