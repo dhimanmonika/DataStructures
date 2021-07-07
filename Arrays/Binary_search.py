@@ -16,7 +16,7 @@ arr=[1,2,3,5,12,16]
 print("enter number to search in array :")
 try:
     num=int(input())
-    res = binary_search(arr, num, 0, 5)
+    res = binary_search(arr, num, 0, 6)
     if res < 0:
         print("NOT FOUND")
     else:
